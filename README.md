@@ -1,68 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="Gympoint" title="Gympoint" src="git_image/logo.png" width="200px" />
+</h1>
 
-## Available Scripts
+<h3 align="center">
+      Gympoint
+</h3>
 
-In the project directory, you can run:
+<blockquote align="center">“Não fique olhando o relógio faça como ele mexa-se”!</blockquote>
 
-### `yarn start`
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/commonality/readme-inspector.svg">
+  <img alt="Top language" src="https://img.shields.io/github/languages/top/commonality/readme-inspector.svg">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#Sobre o Projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Dependencias">Dependencias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Gympoit: Sobre o projeto
 
-### `yarn test`
+A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de academia o **Gympoint**. Nesta repositorio esta listado o Front End desenvoldio em React da aplicação.
+é uma continuçao do projeto gympoint.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Ferramentas utilizadas
 
-### `yarn build`
+- Sucrase + Nodemon;
+- ESLint + Prettier + EditorConfig;
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Funcionalidades
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### 1. Autenticação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Permitir que um usuário se autentique em sua aplicação utilizando e-mail e uma senha.
 
-### `yarn eject`
+#### 2. Cadastro de alunos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Permitir que alunos sejam mantidos (cadastrados/atualizados) na aplicação utilizando nome, email, idade, peso e altura, avatar.
+O cadastro dos alunos só é feito por administradores autenticados na aplicação.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 3. Agendamento
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Opçao de agendamento de treinos.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### 4. Notificaçao de agendamento
 
-## Learn More
+Notificaçao de agendamento por e-mail.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### informações para uso do codigo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yarn], no seu computador para conseguir usar as linhas de comando abaixo.
 
-### Code Splitting
+```bash
+#Clone o repositorio com o comando
+$git clone https://github.com/guilhermeseckert/Grympoint Gympoint
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#Navegue ate pasta
+$ cd Gympoint
 
-### Analyzing the Bundle Size
+#Instalar as dependencias do projeto
+$ yarn install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+#Iniciando o projeto
+$ yarn start
+```
 
-### Making a Progressive Web App
+<h1 align="center" border-radius= "50%">
+  <img alt="buzz" title="buzz" src="https://media.giphy.com/media/h7FqA5FAhcLfH1i6gS/giphy.gif" width="200px" />
+</h1>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Made with by Guilherme S.Eckert :wave: [Get in touch!](https://www.linkedin.com/in/guilherme-eckert/)
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[docker]: https://www.docker.com/
