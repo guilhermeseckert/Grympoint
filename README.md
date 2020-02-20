@@ -26,7 +26,7 @@ A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de acad
 
 <h1 align="center">
   <img alt="gympoint" title="gym1" src="git_image/login.png" width="350px" />
-  <img alt="gympoint2" title="gym2 src="git_image/reg.png" width="350px" />
+  <img alt="gympoint2" title="gym2" src="git_image/reg.png" width="350px" />
 </h1>
 
 ### Ferramentas utilizadas
