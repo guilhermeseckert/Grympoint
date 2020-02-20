@@ -50,7 +50,7 @@ Notificaçao de agendamento por e-mail.
 
 ### informações para uso do codigo
 
-Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yarn], no seu computador para conseguir usar as linhas de comando abaixo.
+Para esta aplicaçao voce precisar ter instalado o [Node.js][nodejs], [Yarn][yarn] no seu computador para conseguir usar as linhas de comando abaixo.
 
 ```bash
 #Clone o repositorio com o comando
