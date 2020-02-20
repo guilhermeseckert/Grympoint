@@ -21,8 +21,9 @@
 
 ## Gympoit: Sobre o projeto
 
-A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de academia o **Gympoint**. Nesta repositorio esta listado o Front End desenvoldio em React da aplicação.
-é uma continuçao do projeto gympoint.
+Continução do projeto **Gympoint**. Neste repositorio sera desenolvido a interface web com o usuário.
+
+[Backend da aplicão em nodeJS][backend]
 
 <h1 align="center">
   <img alt="gympoint" title="gym1" src="git_image/login.png" width="150px" />
@@ -32,26 +33,16 @@ A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de acad
 ### Ferramentas utilizadas
 
 - Sucrase + Nodemon;
-- ESLint + Prettier + EditorConfig;
+- ESLint + Prettier + EditorConfig + customize-cra;
 
-### Funcionalidades
+### Dependencias do projeto
 
-#### 1. Autenticação
-
-Permitir que um usuário se autentique em sua aplicação utilizando e-mail e uma senha.
-
-#### 2. Cadastro de alunos
-
-Permitir que alunos sejam mantidos (cadastrados/atualizados) na aplicação utilizando nome, email, idade, peso e altura, avatar.
-O cadastro dos alunos só é feito por administradores autenticados na aplicação.
-
-#### 3. Agendamento
-
-Opçao de agendamento de treinos.
-
-#### 4. Notificaçao de agendamento
-
-Notificaçao de agendamento por e-mail.
+-rocketseat/unform
+-history
+-polished
+-prop-types
+-styled-components
+-yup
 
 ### informações para uso do codigo
 
@@ -80,3 +71,4 @@ Made with by Guilherme S.Eckert :wave: [Get in touch!](https://www.linkedin.com/
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
 [docker]: https://www.docker.com/
+[backend]: https://github.com/guilhermeseckert/GYMPOINT
