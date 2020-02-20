@@ -25,8 +25,8 @@ A aplicação a ser desenvolvida agora é uma aplicativode gerenciamento de acad
 é uma continuçao do projeto gympoint.
 
 <h1 align="center">
-  <img alt="gympoint" title="gym1" src="git_images/login.png" width="350px" />
-  <img alt="gympoint2" title="gym2 src="git_images/reg.png" width="350px" />
+  <img alt="gympoint" title="gym1" src="git_image/login.png" width="350px" />
+  <img alt="gympoint2" title="gym2 src="git_image/reg.png" width="350px" />
 </h1>
 
 ### Ferramentas utilizadas
